@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex",
-    "migrate:create": "npm run knex -- migrate:make --migrations-directory ./src/db/migrations -x ts",
+    "migrate:create": "npm run knex -- migrate:make --migrations-directory ./db/migrations -x ts",
     "lint": "eslint src --ext .ts --fix"
   },
   "keywords": [],
