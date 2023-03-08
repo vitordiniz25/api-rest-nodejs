@@ -7,7 +7,7 @@ const app = fastify()
 app.get('/hello', async () => {
   const transaction = await knex('transactions')
     .insert({
-      id: crypto.randomUUID,
+      id: crypto.randomUUID(),
       title: 'teste',
       amount: 1000,
     })
