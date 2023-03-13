@@ -1,3 +1,5 @@
+API REST - Cadastro de transações.
+
 # RF
 
 - [x] O usuário deve poder criar uma nova transação;
@@ -10,7 +12,3 @@
 - [x] A transação poder ser do tipo crédito que somará ao valor total, ou débito que subtrairá;
 - [x] Deve ser possível identificarmos o usuário entre as requisições;
 - [x] O usuário só pode visualizar transações o qual ele criou;
-
-# RNF
-
--
